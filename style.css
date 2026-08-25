@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fbf6ee;
+    color: #5b3030;
+    font-family: Arial, sans-serif;
+}
+
+
+/* NAVBAR */
+
+nav {
+    height: 75px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 60px;
+
+    background: #6f1d2a;
+}
+
+.logo {
+    color: #e4c17a;
+    font-size: 28px;
+    font-family: Georgia, serif;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    color: #e4c17a;
+}
+
+
+/* HERO */
+
+.hero {
+    height: calc(100vh - 75px);
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.hero > p:first-child {
+    color: #a67855;
+
+    font-size: 12px;
+
+    letter-spacing: 5px;
+}
+
+.hero h1 {
+    font-family: Georgia, serif;
+
+    font-size: 100px;
+
+    font-weight: normal;
+
+    color: #6f1d2a;
+
+    margin: 30px 0;
+}
+
+.hero h1 span {
+    color: #b48a52;
+
+    font-size: 60px;
+}
+
+.hero h3 {
+    font-size: 20px;
+
+    font-weight: normal;
+
+    color: #8b604e;
+}
+
+.subtitle {
+    margin-top: 15px;
+
+    font-family: Georgia, serif;
+
+    font-size: 22px;
+
+    color: #765650;
+}
+/* OUR STORY */
+
+.our-story {
+    padding: 100px 20px;
+
+    text-align: center;
+
+    background: #f3e8da;
+}
+
+.section-title {
+    color: #a67855;
+
+    font-size: 12px;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 15px;
+}
+
+.our-story h2 {
+    font-family: Georgia, serif;
+
+    font-size: 55px;
+
+    font-weight: normal;
+
+    color: #6f1d2a;
+
+    margin-bottom: 20px;
+}
+
+.story-text {
+    max-width: 600px;
+
+    margin: auto;
+
+    color: #765650;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+}
+
+.story-button {
+    display: inline-block;
+
+    margin-top: 30px;
+
+    padding: 12px 25px;
+
+    background: #6f1d2a;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 12px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+}
+
+.story-button:hover {
+    background: #8b2938;
+}
+
+/* =========================
+   OUR JOURNEY
+========================= */
+
+.journey {
+    padding: 100px 8%;
+    background: #faf7f2;
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 60px;
+}
+
+.small-title {
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.section-heading h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #666;
+}
+
+.journey-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.journey-item {
+    text-align: center;
+    padding: 35px 20px;
+    border: 1px solid #e5dfd6;
+    background: #fff;
+    transition: transform 0.3s ease;
+}
+
+.journey-item:hover {
+    transform: translateY(-8px);
+}
+
+.journey-number {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    color: #999;
+}
+
+.journey-item h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.journey-item p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+.journey-item a {
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #333;
+    border-bottom: 1px solid #333;
+    padding-bottom: 4px;
+}
